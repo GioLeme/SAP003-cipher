@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Code Messages></title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/lock_icon.png">
+        <h1> &lt;Code.Messages&gt;</h1>
+
+    </header>
+    <main>
+        <image class="autism" src="images/autism_icon.png"></image>
+        <form>
+            <div class="inputGroup">
+                <div class="insertTextAndNumber">
+                    <label class="inputlabel" for="message">Insira uma mensagem:</label>
+                    <input type="text" id="text" class="input" placeholder="Ex: Olá, Giovanna!">
+                </div>
+                <div class="insertTextAndNumber">
+                    <label class="inputlabel" for="message">Insira a chave numérica:</label>
+                    <input type="number" id="number" class="input" placeholder="Ex: 2">
+                </div>
+            </div>
+
+            <div class="inputGroup">
+                <div class="firstRadio-btn">
+                    <input type="radio" id="radioOne" name="option" value="encode" checked>
+                    <label class="inputlabel" for="radioOne">Codificar</label>
+                </div>
+                <div class="secondRadio-btn">
+                    <input type="radio" id="radioTwo" name="option" value="decode">
+                    <label class="inputlabel" for="radioTwo">Decodificar</label>
+                </div>
+            </div>
+            <button class="btn" id="btn" type="submit">OK</button>
+            <textarea disabled rows="10" cols="40" maxlength="500" id="answer"></textarea>
+        </form>
+    </main>
+</body>
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+
 </html>

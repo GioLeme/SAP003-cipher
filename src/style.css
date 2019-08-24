@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.header {
+    background-color: #d6d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+
+.header img {
+    height: 70%;
+    margin-right: 30px;
+
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: 100;
+    color: #333333;
+}
+
+main {
+    background-color: #161f31;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.autism {
+    position: absolute;
+    top: 60;
+    left: 235px;
+    opacity: 0.2;
+    height: 550px;
+}
+
+
+form {
+    z-index: 2;
+    width: 512px;
+    height: 496px;
+    border-style: solid;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    background-color: rgba(6, 12, 17, 0.507);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.insertTextAndNumber {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputlabel {
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.input {
+    padding: 3px;
+}
+
+.radio-btn {
+    justify-content: flex-start;
+}
+
+.firstRadio-btn {
+    margin-left: 65px;
+}
+
+.secondRadio-btn {
+    margin-right: 65px;
+}
+
+.btn {
+    width: 70px;
+    height: 30px;
+    align-self: center;
+    margin-top: 30px;
+    background-color: #333333;
+    border-color: #333333;
+    color: white;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 350px;
+    align-self: center;
+    margin-top: 40px;
+}
