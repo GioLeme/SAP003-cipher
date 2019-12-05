@@ -26,4 +26,4 @@ As tecnologias utilizadas foram:
 - HTML  
 - CSS  
   
-Projeto desenvolvido pela aluna Giovanna Lima.
+Projeto desenvolvido em agosto de 2019 pela aluna Giovanna Lima.
