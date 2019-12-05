@@ -1,4 +1,5 @@
-# <Code.Messages>
+# <Code.Messages>  
+
 ## Descrição:
 **Quem são os principais usuários do produto?**
 Os principais usuários do produto são os familiares e instituições psicológicas ou de ensino em contato direto com pessoas com autismo.
@@ -10,11 +11,19 @@ O objetivo é promover a comunicação entre os familiares ou instituições sob
 Tarefas simples como fazer uma lista de compras com itens preferidos, planejar uma viagem e outras tarefas cotidianas podem se tornar muito mais fáceis usando este produto.
 
 ## Setup:
- ### Instalar dependências
+ ## Instalar dependências
  npm install
- ### Rodar a aplicação
+ ## Rodar a aplicação
  npm run start
- ### Testes
+ ## Testes
  npm run test
- ### Lint
- npm run eslint
+ ## Lint
+ npm run eslint  
+   
+ Este projeto foi proposto pelo bootcamp da Laboratória Brasil.
+As tecnologias utilizadas foram:  
+- JavaScript  
+- HTML  
+- CSS  
+  
+Projeto desenvolvido pela aluna Giovanna Lima.
